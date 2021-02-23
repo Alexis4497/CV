@@ -88,6 +88,14 @@ h2{
     padding: 20px 0;
     
 }
+.infos2{
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+}
 /*Image ronde*/
 .roundedImage{
     display: block;
@@ -120,14 +128,15 @@ header .button:hover a {
 }
 /********************************************CSS DES 2 COLONNES************************************************************/
 .colonne_gauche{
-margin-left: -48%;
+margin-right:5%;
+margin-left: -50%;
+width: 150%;
 }
 .colonne_droite{
-  margin-right: -48%;
-  }
-
-/************GERER LE RESPONSIVE******************/
-
+margin-right:-50%;
+margin-left: 5%;
+width: 150%;
+}
 
 /**********************************************COMPETENCES********************************************************/
 
@@ -387,15 +396,16 @@ footer {
 
 
 /**************************************** MEDIA QUERIES ************************************************/
-
 @media screen and (max-width: 900px)
 {
 h1{
   font-size: 3em;
+  margin-right: -150px;
 }
 
 h2{
   font-size: 2em;
+  margin-right: -150px;
 }
 .roundedImage{
   width: 150px;
@@ -449,18 +459,194 @@ margin-bottom: 10%;
 }
 
 @media screen and (max-width:770px){
+  h1{
+    padding-top: 30px;
+    font-size: 2em;
+    text-align: center;  
+    margin-right: 2%;
+  }
+  h2{
+  font-size: 1em;
+  margin-right: 2%;
+  }
+  
+  .roundedImage{
+  
+  width: 120px;
+  height: 120px;
+  margin-right: 50%;
+  margin-left: -50%;
+  }
+  
+  .container{
+  
+  margin-top: -50px;
+  margin-right: 5%;
+  }
+  
+  .container .infos{
+    margin-top: 30%;
+    margin-right: 2%;
+    margin-left: -2%;
+    font-size: 1em;
+    float: left;
+    }
+    .container .infos2{
+      margin-top: 30%;
+      margin-right: 72%;
+      margin-left: -45%;
+      font-size: 1em;
+      float: left;
+      }
+  
+    .container .infos a{
+      font-size: 13px;
+    }
+    .container .infos2 a{
+      font-size: 13px;
+    }
+    
+  
+    .colonne_gauche{
+  margin-top: 15%;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+  height: auto;
+  width: auto;
+  
+    }
+  
+    .colonne_droite{
+      margin-top: 1450px;
+     margin-left:-350px;
+     margin-right: 280px;
+      
+    }
+  
+    .network{
+      font-size: 2em;
+      border: 2px solid #b3aca7;
+      padding: 15px 20px;
+      color: #726659 ;
+      z-index: -1;
+      border-radius: 50%;
+      margin-left: -62px;
+      margin-right: 79px;
+    }
+  
+    .example{
+      margin-left: -20px;
+      margin-top: 5%;
+    }
+    .network:hover{
+  
+  background: none;
+  
+    }
+  }
+}
+
+@media screen and (max-width:520px){
+
+h1{
+  padding-top: 30px;
+  font-size: 2em;
+  text-align: center;  
+  margin-right: 2%;
+}
+h2{
+font-size: 1em;
+margin-right: 2%;
+}
+
+.roundedImage{
+
+width: 120px;
+height: 120px;
+margin-right: 50%;
+margin-left: -50%;
+}
+
+.container{
+
+margin-top: -50px;
+margin-right: 5%;
+}
+
+.container .infos{
+  margin-top: 30%;
+  margin-right: 2%;
+  margin-left: -2%;
+  font-size: 1em;
+  float: left;
+  }
+  .container .infos2{
+    margin-top: 30%;
+    margin-right: 72%;
+    margin-left: -45%;
+    font-size: 1em;
+    float: left;
+    }
+
+  .container .infos a{
+    font-size: 13px;
+  }
+  .container .infos2 a{
+    font-size: 13px;
+  }
   
 
+  .colonne_gauche{
+margin-top: 15%;
 
+margin-left: 5%;
+margin-right: 5%;
+height: auto;
+width: auto;
 
+  }
 
+  .colonne_droite{
+    margin-top: 1450px;
+   margin-left:-350px;
+   margin-right: 280px;
+    
+  }
 
+  .network{
+    font-size: 2em;
+    border: 2px solid #b3aca7;
+    padding: 15px 20px;
+    color: #726659 ;
+    z-index: -1;
+    border-radius: 50%;
+    margin-left: -62px;
+    margin-right: 79px;
+  }
 
+  .example{
+    margin-left: -20px;
+    margin-top: 5%;
+  }
+  .network:hover{
 
+background: none;
 
+  }
+}
 
+@media screen and (max-width:360px){
 
+.colonne_droite{
+margin-top: 1550px;
+margin-left:-320px;
+margin-right: 220px;
 
+}
+
+.example{
+  margin-left: 5px;
 }
 
 
@@ -470,9 +656,4 @@ margin-bottom: 10%;
 
 
 
-
-
-
-
-
-
+}
