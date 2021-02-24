@@ -371,11 +371,23 @@ footer {
 .roundedImage{
 width: 150px;
 height: 150px;
+display: flex;
+margin-top: -30px;
+margin-left: -80px;
 }
 
-.fas{
+.example .fas{
 font-size: 40px;
 }
+.container .far{
+font-size: 20px;
+}
+.container .fab{
+font-size: 20px;
+}
+.container .infos .fas{
+  font-size: 20px;
+  }
 
 .network{
   font-size: 2em;
@@ -385,8 +397,26 @@ font-size: 40px;
   z-index: -1;
   border-radius: 50%;
 }
+.container .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.container .infos2 {
+  margin-left: 250px;
+  margin-top: -105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.colonne_gauche{
+margin-top: 180px;
+}
 
-
+.container .upload{
+  margin-top: 50px;
+}
 
 }
