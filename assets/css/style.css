@@ -198,7 +198,7 @@ margin-top: 12.6%;
 .network{
     font-size: 4em;
     border: 3px solid #b3aca7;
-    padding: 15px 22px;
+    padding: 15px 15px;
     color: #726659 ;
     z-index: -1;
     border-radius: 50%;
@@ -208,37 +208,31 @@ margin-top: 12.6%;
 visibility: hidden;
 font-size: 20px;
 text-align: center;
-margin-top: 5.5%;
-margin-left: -11.5%;
+margin-top: 5%;
+margin-left: -10%;
 }
 .network:hover span{
   position: absolute;
   visibility:visible;
   font-size: 20px;
 text-align: center;
-
   }
-
   .network i{
     visibility:visible;
     position: relative;
   }
-
   .network:hover i{
     visibility:hidden;
     position: relative;
     }
-
 .network :hover{
     background: #b3aca7;
     color: #e2dedb;
     transition: all 0.3s ease-in-out;    
 }
-
 #span_tech{
-margin-left: -16%;
+margin-left: -14.5%;
 }
-
 
 /*****************************************FOOTER*************************************************************/
 footer {
@@ -379,10 +373,18 @@ width: 150px;
 height: 150px;
 }
 
-.network{
-padding: 3px 3px;
+.fas{
+font-size: 40px;
 }
 
+.network{
+  font-size: 2em;
+  border: 3px solid #b3aca7;
+  padding: 15px 15px;
+  color: #726659 ;
+  z-index: -1;
+  border-radius: 50%;
+}
 
 
 
