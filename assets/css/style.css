@@ -27,6 +27,24 @@ h4{
 li{
     list-style-type: none;
 }
+a:link 
+{ 
+ text-decoration:none; 
+ color: black;
+} 
+.infos2 a
+{ 
+ text-decoration:none; 
+ color: black;
+} 
+
+.upload__button__text a{
+color: white;
+}
+.upload__button__text a:hover{
+  color: white;
+  text-decoration:none; 
+  }
 
 /* Classe pour le style des titres */
 .decorated{
@@ -99,7 +117,7 @@ h2{
 .roundedImage{
     display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; 
     overflow:hidden;
     -webkit-border-radius:160px;
     -moz-border-radius:160px;
@@ -109,10 +127,6 @@ h2{
     width:200px;
     height:200px;
   }
-
-
-/********************************************CSS DES 2 COLONNES************************************************************/
-
 
 /**********************************************COMPETENCES********************************************************/
 
@@ -367,7 +381,6 @@ footer {
 
 /**************************************** MEDIA QUERIES ************************************************/
 @media screen and (max-width: 780px){
-
 .roundedImage{
 width: 150px;
 height: 150px;
@@ -404,19 +417,87 @@ font-size: 20px;
     margin-top: 130px;
 }
 .container .infos2 {
-  margin-left: 250px;
-  margin-top: -105px;
+  margin-left: 220px;
+  margin-top: -80px;
+  margin-right: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .colonne_gauche{
-margin-top: 180px;
+margin-top: 160px;
 }
 
 .container .upload{
   margin-top: 50px;
 }
+.icones_Comp span{
+visibility: hidden;
+}
+.icones_Comp .icone_C{
+float: left;
+margin: 0 45px;
+}
+#Langues span{
+margin-top: 50px;
+}
+
+
+}
+@media screen and (max-width: 470px){
+  .form-container {
+    padding-top: 20px;
+    text-align: center;
+    position: relative;  
+    margin-right: 0; 
+  }
+  input {
+    font-size: 0.85em;
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom:none;
+  }
+
+textarea {
+  width: 300px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  resize: none !important;
+}
+.container .infos2 {
+  margin-left: 160px;
+  margin-top: -120px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.colonne_gauche{
+  margin-top: 180px;
+  }
+  .network{
+    font-size: 2em;
+    border: 3px solid #b3aca7;
+    padding: 13px 13px;
+    color: #726659 ;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  .icones_Comp .icone_C{
+    float: left;
+    margin: 0 30px;
+    margin-left: 50px;
+    }
 
 }
