@@ -135,11 +135,11 @@ h2{
     letter-spacing: 0.1em;
 }
 #xp{
-margin: 20px 0 0 3%;
+margin: 20px 0 0 ;
 }
 
 #centreInteret{
-margin: 20px 0 0 3%;
+margin: 20px 0 0 0;
 }
 
 
@@ -375,17 +375,13 @@ footer {
 
 
 /**************************************** MEDIA QUERIES ************************************************/
-@media screen and (min-height: 1280px){
+@media screen and (max-width: 1280px){
   .colonne_gauche{
     margin-top: 200px;
   }
   .colonne_droite{
     margin-top: 200px;
   }
-  
-
-
-
 }
 
 @media screen and (max-width: 780px){
