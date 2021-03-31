@@ -377,10 +377,10 @@ footer {
 /**************************************** MEDIA QUERIES ************************************************/
 @media screen and (min-height: 1280px){
   .colonne_gauche{
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .colonne_droite{
-    margin-top: 100px;
+    margin-top: 200px;
   }
   
 
