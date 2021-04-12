@@ -375,7 +375,16 @@ footer {
 
 
 /**************************************** MEDIA QUERIES ************************************************/
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1350px){
+  .colonne_gauche{
+    margin-top: 200px;
+  }
+  .colonne_droite{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-height: 280px){
   .colonne_gauche{
     margin-top: 200px;
   }
