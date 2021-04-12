@@ -27,6 +27,14 @@ h4{
 li{
     list-style-type: none;
 }
+.colonne_droite{
+    position:absolute;
+margin-top: 100px;
+}
+.colonne_gauche{
+    position:absolute;
+  margin-top: 100px;
+}
 .infos a
 { 
  text-decoration:none; 
@@ -248,11 +256,13 @@ footer {
     background: url(../../media/footer.jpg) 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
-    
+    margin-top:1500px;
+   
   }
   footer h3 {
     padding: 150px 0 60px 0;
     font-size: 2.5em;
+    
   }
  
   .network {
@@ -262,6 +272,7 @@ footer {
     color: #726659;
     z-index: -3 !important;
     border-radius: 50%;
+    
   }
   .network:hover, textarea:hover, input:hover, .form-button:hover {
     background: #b3aca7;
