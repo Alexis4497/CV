@@ -28,11 +28,11 @@ li{
     list-style-type: none;
 }
 .colonne_droite{
-    position:absolute;
+position:absolute;
 margin-top: 100px;
 }
 .colonne_gauche{
-    position:absolute;
+   position:absolute;
   margin-top: 100px;
 }
 .infos a
@@ -514,6 +514,16 @@ textarea {
 }
 .colonne_gauche{
   margin-top: 180px;
+  postion:relative;
+  }
+  .colonne_droite{
+ margin-top:1500px;
+  postion:relative;
+  }
+  footer {
+      position:relative;
+      margin-top: 3300px;
+      
   }
   .network{
     font-size: 2em;
