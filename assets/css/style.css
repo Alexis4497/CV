@@ -28,11 +28,11 @@ li{
     list-style-type: none;
 }
 .colonne_droite{
-position:absolute;
+
 margin-top: 100px;
 }
 .colonne_gauche{
-   position:absolute;
+   
   margin-top: 100px;
 }
 .infos a
@@ -45,7 +45,10 @@ margin-top: 100px;
  text-decoration:none; 
  color: black;
 } 
-
+.upload{
+position: absolute;
+z-index: 1;
+}
 .upload__button__text a{
 color: white;
 }
@@ -256,7 +259,7 @@ footer {
     background: url(../../media/footer.jpg) 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
-    margin-top:1500px;
+    
    
   }
   footer h3 {
@@ -405,6 +408,13 @@ footer {
 }
 
 @media screen and (max-width: 780px){
+.colonne_droite{
+  margin-top: 1000px;
+}
+
+
+
+
 .roundedImage{
 width: 150px;
 height: 150px;
@@ -514,14 +524,14 @@ textarea {
 }
 .colonne_gauche{
   margin-top: 180px;
-  postion:relative;
+  
   }
   .colonne_droite{
  margin-top:1500px;
-  postion:relative;
+  
   }
   footer {
-      position:relative;
+      
       margin-top: 3300px;
       
   }
