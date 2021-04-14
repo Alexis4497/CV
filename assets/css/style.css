@@ -389,32 +389,7 @@ footer {
 
 
 /**************************************** MEDIA QUERIES ************************************************/
-@media screen and (max-width: 1350px){
-  .colonne_gauche{
-    margin-top: 200px;
-  }
-  .colonne_droite{
-    margin-top: 200px;
-  }
-}
-
-@media screen and (max-height: 280px){
-  .colonne_gauche{
-    margin-top: 200px;
-  }
-  .colonne_droite{
-    margin-top: 200px;
-  }
-}
-
 @media screen and (max-width: 780px){
-.colonne_droite{
-  margin-top: 1000px;
-}
-
-
-
-
 .roundedImage{
 width: 150px;
 height: 150px;
@@ -482,7 +457,6 @@ margin-top: 50px;
 @media screen and (max-width: 470px){
 .sous-titre{
 font-size: 1em;
-
 }
 
   .form-container {
@@ -525,15 +499,6 @@ textarea {
 .colonne_gauche{
   margin-top: 180px;
   
-  }
-  .colonne_droite{
- margin-top:1500px;
-  
-  }
-  footer {
-      
-      margin-top: 3300px;
-      
   }
   .network{
     font-size: 2em;
